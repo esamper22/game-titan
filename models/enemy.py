@@ -99,4 +99,5 @@ class Enemy:
         self.rect.y = 300
         self.x = self.rect.x
         self.y = self.rect.y
+        self.bullets.clear()
         self.calculate_new_destiny()
