@@ -10,28 +10,31 @@ Game Titan es un juego de estilo pixel art en el que el objetivo principal es es
 
 ## Dependencias
 
-El proyecto utiliza las siguientes dependencias:  
+El proyecto utiliza las dependencias listadas en el archivo `requirements.txt`. Para instalarlas, utiliza el siguiente comando:  
 
-- **[Raylib](https://www.raylib.com/)**: Una biblioteca de gráficos en C utilizada para desarrollar el juego.  
-- **[PyInstaller](https://pyinstaller.org/)**: Herramienta utilizada para convertir el código Python en un archivo ejecutable (.exe).  
+```bash
+pip install -r requirements.txt
+```
 
 ## Instalación y Ejecución
 
-1. **Ejecutable**:  
-    En la carpeta `dist` encontrarás el archivo `.exe` listo para ejecutarse. Simplemente haz doble clic en el archivo para iniciar el juego.  
-
-2. **Desde el Código Fuente**:  
-    Si deseas ejecutar el juego desde el código fuente, asegúrate de tener instalada la dependencia `raylib`. Puedes instalarla con el siguiente comando:  
+1. **Clonar el Repositorio**:  
+    Clona el repositorio desde GitHub:  
 
     ```bash
-    pip install raylib
-    ```  
+    git clone https://github.com/esamper22/game-titan.git
+    cd game-titan
+    ```
 
-    Luego, ejecuta el archivo principal del juego con Python:  
+2. **Ejecutable**:  
+    En la carpeta `dist` encontrarás el archivo `.exe` listo para ejecutarse. Simplemente haz doble clic en el archivo para iniciar el juego.  
+
+3. **Desde el Código Fuente**:  
+    Si deseas ejecutar el juego desde el código fuente, asegúrate de instalar las dependencias como se indica en la sección anterior. Luego, ejecuta el archivo principal del juego con Python:  
 
     ```bash
     python main.py
-    ```  
+    ```
 
 ## Créditos
 
