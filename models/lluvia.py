@@ -5,7 +5,6 @@ from raylib import WHITE
 
 from utils.colision import colision_rect
 
-
 class Lluvia:
     def __init__(self):
         self.lista_lluvia = []

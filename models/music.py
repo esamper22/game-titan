@@ -7,11 +7,11 @@ from pyray import (
     unload_music_stream,
     update_music_stream,
 )
-
+from utils.load_assests import resource_path
 
 class Music:
     def __init__(self, music=None):
-        self.music = load_music_stream(music)
+        self.music = load_music_stream(resource_path(music))
     
     def update(self):
         update_music_stream(self.music)
