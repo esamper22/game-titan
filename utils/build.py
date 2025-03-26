@@ -10,7 +10,7 @@ def comprimir_exe():
         
 def create_exe():
     try:
-        if not os.path.exists("dist") or not os.path.exists("build"):
+        if not os.path.exists("dist") or not os.path.exists("build") or not os.path.exists("GameTittan.exe"):
             subprocess.run(
                 "pyinstaller --name GameTittan --onefile --windowed --icon=tittan.ico main.py",
                 check=True
